@@ -1,0 +1,17 @@
+{
+  "name": "rkf",
+  "version": "1.0.0",
+  "description": "Rogan paper factory website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oleh pomazan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "hbs": "^3.0.1",
+    "jsonfile": "^2.0.0"
+  }
+}

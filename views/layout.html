@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Роганская картонная фабрика</title>
+        <link rel="stylesheet" href="static/css/bootstrap.min.css" media="screen"></link> 
+        <link rel="stylesheet" href="static/css/sticky-footer-navbar.css" media="screen"></link> 
+        <script src="/static/js/jquery.js"></script>  
+        <script src="/static/js/bootstrap.min.js"></script>  
+    </head>
+    <body>
+        {{> navbar }}
+        <div class="container-fluid">  
+            <div class="row">
+                <div class="col-md-2">
+                    
+                        {{> sidemenu }}
+                    
+                </div>
+                <div class="col-md-7">
+                    
+                        {{{body}}}
+                                        
+                </div>
+                <div class="col-md-3">
+                    
+                        {{> rightmenu }}
+                                       
+                </div>
+            </div>    
+        </div>  
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Разработка: ПАО "РКФ" root@rkf.com.ua</p>
+            </div>                
+        </footer>
+              
+    </body>
+</html>
